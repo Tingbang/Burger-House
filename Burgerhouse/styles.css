@@ -1,0 +1,75 @@
+.navbar,#cardMenu{
+  height: 100%;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+
+
+/* Order Summary Positioning 
+Its positioned absolute from the top left of the screen
+Left is set to 0 so that it hugs the left side of the screen and
+is positioned 45px from the top 
+*/
+
+.item-absolute{
+  margin-top: 10px;
+  
+  position: absolute;
+  top: 69px;
+  left: 0px;
+  width: 35%;
+  padding-left: 0px;
+  
+     
+}
+
+
+h3{
+    text-align: center;
+}
+#cardMenu{
+
+
+    width: 16rem;
+    height: 17rem;
+    margin: 5px;
+
+ 
+    border: 1px solid #333;
+    background-color: #f1f1f1;
+    
+
+
+    float: left;
+    overflow: auto;
+
+}
+
+#row{
+    padding-top: 40px;
+    
+}
+
+
+#tabs{
+    
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 55%;
+    
+    
+}
+
+
+.navbar{
+    position: relative;
+    height: 14%;
+  
+}

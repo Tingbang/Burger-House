@@ -1,0 +1,184 @@
+/*Defaults*/
+/*Note for marker, please use google chrome when using the website*/
+/*Reason being that IE doesen't support css3's new features */
+/*Which causes the text on the website to not centre and wrap properly.*/
+html,body, #intro{
+    height: 100%;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+/*-----------------Intro Section---------------------*/
+#intro{
+    background: url("img/snack.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+
+
+} 
+
+html,body, #signup{
+    height: 100%;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+#signup{
+    background: url("img/brownie.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+
+
+} 
+
+#signup h1{
+    
+    padding-bottom: 20px;
+}
+#intro hr{
+    background-color: white;
+}
+/*-----------------End of Intro---------------------*/
+
+
+/*-----------------Main Content---------------------*/
+
+/*About us section of the main page*/
+#description{
+    padding-top: 50px; /*Creates space above the description from the image*/
+}
+
+
+#cards {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+    
+}
+
+/* Sign Up Page styles    */
+
+#error{
+    margin-bottom: 0rem;
+}
+
+#signup_cont{
+    margin-top: -25px;
+    
+
+    color: white;
+}
+
+
+
+#cardMenu{
+	font-size: 2px !important; 
+    width: 18rem;
+    height: 13rem;
+    margin: 5px;
+    background-color: #f1f1f1;
+    float: left;
+    overflow: auto;
+}
+
+#row{
+    padding-top: 40px;
+    
+}
+
+#footer1{
+    background-color: #6351ce ;
+    
+}
+
+#footer{
+ 
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #6351ce ;
+  text-align: center;
+  position:fixed;
+    
+}
+
+.s1{
+    text-align: left;
+}
+
+h3{
+    text-align: center;
+    color: #000;
+}
+
+
+.cards{
+    width: 18rem;
+    height: 13rem;
+ 
+    border: 1px solid #333;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;  
+    
+    text-align: center;
+    
+}
+
+
+.well{
+    margin-right:4;
+    margin-top: 5px;
+    border: 1px solid #333;
+}
+
+
+
+/*Admin Panel*/
+
+#adminpanels{
+
+	font-size: 2px !important; 
+    width: 25rem;
+    height: 13rem;
+    margin: 5px;
+    background-color: #f1f1f1;
+    float: left;
+    overflow: auto;
+    padding:15px;
+
+}
+
+.scrollable{
+  height:550px;
+  overflow-y: scroll;
+
+}
+
+#delete{
+    text-align: center;
+}
+.navbar{
+    position: relative;
+
+  
+}
+
