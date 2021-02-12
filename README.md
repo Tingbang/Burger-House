@@ -5,4 +5,4 @@ Notable features:
 Stock/User Management Systems (SQL),
 E-Commerce Cart System,
 Mobile Responsiveness,
-PayPal API Integration.
+PayPal API Integration(Config Files not included in this repo due to security reasons).
